@@ -5,7 +5,7 @@ Tools : Nmap, Wireshark<br><br>
 Outcome : Basic network reconnaissance skill; understanding network service exposure.<br><br><br>
 
 
-#Interview Questions:
+# Interview Questions:
 
 1. What is an open port? <br>
    An open port is a network port on a device or server that is actively listening for incoming connections or data. It allows communication between devices over a network using specific protocols.<br><br><br>
