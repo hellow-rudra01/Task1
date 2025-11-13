@@ -12,7 +12,7 @@ Interview Questions:<br><br>
 
 
 2. How does Nmap perform a TCP SYN scan?<br>
-   Nmap’s TCP SYN scan (a.k.a. “half-open” scan) works as follows:<br><br>
+   Nmap’s TCP SYN scan (a.k.a. “half-open” scan) works as follows:<br>
 
 . Nmap sends a TCP packet with only the SYN flag set to the target port.<br>
 . If the target responds with SYN/ACK, Nmap marks the port open and immediately sends a RST to tear down the connection (avoids completing the three-way handshake).<br>
@@ -39,7 +39,7 @@ Interview Questions:<br><br>
 
 7. What is a port scan and why do attackers perform it?<br>
    A port scan probes a host’s network ports to discover which services are listening.
-Reasons attackers perform it:<br><br>
+Reasons attackers perform it:<br>
 
 . Reconnaissance — find reachable services to target.<br>
 . Vulnerability discovery — identify outdated or misconfigured services to exploit.<br>
